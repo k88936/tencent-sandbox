@@ -76,6 +76,23 @@ if (-not (Test-Path $sandboxDownloads)) {
     }
 }
 
+# Move sandbox-setup.cmd to Scripts directory if it exists
+Write-Host "Setting up sandbox scripts..." -ForegroundColor Yellow
+$setupScriptSource = Join-Path $InstallPath "sandbox-setup.cmd"
+$setupScriptTarget = Join-Path $InstallPath "Scripts\sandbox-setup.cmd"
+
+if (Test-Path $setupScriptSource) {
+    try {
+        Copy-Item -Path $setupScriptSource -Destination $setupScriptTarget -Force
+        Write-Host "Moved sandbox-setup.cmd to Scripts directory" -ForegroundColor Green
+        
+        # Note about addzh-cn.ps1 dependency
+        Write-Host "Note: sandbox-setup.cmd references addzh-cn.ps1 which may need to be added separately" -ForegroundColor Yellow
+    } catch {
+        Write-Warning "Failed to move sandbox-setup.cmd: $($_.Exception.Message)"
+    }
+}
+
 # Create desktop shortcuts
 Write-Host "Creating desktop shortcuts..." -ForegroundColor Yellow
 

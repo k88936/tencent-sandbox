@@ -125,7 +125,7 @@
         </MappedFolder>
     </MappedFolders>
     <!-- 音频 -->
-    <AudioInput>Enable</AudioInput>
+    <AudioInput>Disable</AudioInput>
     <!-- 视频 -->
     <VideoInput>Disable</VideoInput>
     <!-- 内存限制 -->
@@ -135,5 +135,5 @@
         <Command>C:\Scripts\sandbox-setup.cmd</Command>
     </LogonCommand>
     <!-- vGpu -->
-    <vGPU>Enable</vGPU>
+    <vGPU>Disable</vGPU>
 </Configuration>

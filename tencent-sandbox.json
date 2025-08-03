@@ -6,7 +6,8 @@
     "url": [
         "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/Tencent.wsb",
         "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/install.ps1",
-        "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/uninstall.ps1"
+        "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/uninstall.ps1",
+        "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/Scripts/sandbox-setup.cmd"
     ],
     "installer": {
         "file": "install.ps1"
@@ -51,7 +52,8 @@
         "url": [
             "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/Tencent.wsb",
             "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/install.ps1",
-            "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/uninstall.ps1"
+            "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/uninstall.ps1",
+            "https://raw.githubusercontent.com/k88936/tencent-sandbox/refs/heads/main/Scripts/sandbox-setup.cmd"
         ]
     }
 }

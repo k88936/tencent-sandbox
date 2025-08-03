@@ -51,15 +51,15 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 ## 使用教程
 
 1. **启用 Windows 沙盒**: 确保你的系统已启用 Windows 沙盒功能。
-2. **获取项目**:
-    * 克隆本项目: `git clone https://github.com/empty-233/tencent-sandbox.git`
-    * 或前往 [Releases](https://github.com/empty-233/tencent-sandbox/releases) 页面下载最新版本。
 
-3. **创建目录**: 运行 `mkdir.bat` 一键创建所需目录。
+2. **安装**: 使用scoop:   
+   ```shell 
+   scoop install https://github.com/k88936/tencent-sandbox/raw/refs/heads/main/tencent-sandbox.json
+   ```
 
-4. **安装软件**: 打开 **Tencent.wsb** ，在沙盒中安装所需的腾讯软件。
+3. **安装软件**: 打开 **Tencent.wsb** ，在沙盒中安装所需的腾讯软件。
 
-5. **固定快捷方式**: 将桌面快捷方式移动到任意位置，再移动回桌面，以防止快捷方式消失。
+4. **固定快捷方式**: 将桌面快捷方式移动到任意位置，再移动回桌面，以防止快捷方式消失。
 
 操作完成后就可以正常使用了，**关闭沙盒账号和数据都有所保留**
 

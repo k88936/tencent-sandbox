@@ -36,7 +36,8 @@ $itemsToRemove = @(
     "Tencent.wsb",
     "README.md",
     "install.ps1",
-    "uninstall.ps1"
+    "uninstall.ps1",
+    "sandbox-setup.cmd"
 )
 
 if (-not $KeepData) {
