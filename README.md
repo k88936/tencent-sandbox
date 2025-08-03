@@ -37,18 +37,6 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 默认挂载系统 `SysWOW64` ，出现问题请使用[复制选项](#复制)
 
-### **Windows 10 用户**
-
-1. 进入你 clone/下载 的**项目目录**
-2. 按键盘上的Win + R
-3. 输入 powershell, 按回车
-4. 输入 `PowerShell -ExecutionPolicy Bypass -File ".\win10_init.ps1"`。  
-
-不明白如何操作:
-
-1. 用文本方式打开Tencent.wsb
-2. 将**所有**例如`<HostFolder>.\tencent-sandbox\xxxxxxx</HostFolder>` 中的 `.\` 手动修改为你 clone/下载 的**项目目录**。
-
 ## 沙盒配置
 
 | 设置 | 默认值 | 可选值 | 修改方式 |

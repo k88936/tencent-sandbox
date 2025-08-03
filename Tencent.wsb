@@ -75,6 +75,11 @@
         </MappedFolder>
         <!-- Documents -->
         <MappedFolder>
+            <HostFolder>.\Downloads</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
             <HostFolder>.\Data\Documents\WeChat</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WeChat Files</SandboxFolder>
             <ReadOnly>false</ReadOnly>
