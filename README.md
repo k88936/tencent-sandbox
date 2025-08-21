@@ -54,7 +54,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 2. **安装**: 使用scoop:   
    ```shell 
-   scoop install https://github.com/k88936/tencent-sandbox/raw/refs/heads/main/tencent-sandbox.json
+   scoop install https://github.com/k88936/scoop-bucket/raw/refs/heads/master/bucket/tencent-sandbox.json
    ```
 
 3. **安装软件**: 打开 **Tencent.wsb** ，在沙盒中安装所需的腾讯软件。
